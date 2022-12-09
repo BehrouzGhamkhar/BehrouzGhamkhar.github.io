@@ -12,7 +12,7 @@
 	--previewBg:rgb(25, 39, 52, 0.8);
 	--previewShadow:#111921;
 
-
+	--profileImage: 
 	--buttonColor:#17a2b8;
 
 }
@@ -246,7 +246,7 @@ h6 { font-size: 16px;}
 
 #preview{
 	width: 550px;
-	border:1.5px solid #17a2b8;
+	border:1.5px solid var(--buttonColor);
 	background-color: var(--previewBg);
 	padding:15px;
 	position: relative;

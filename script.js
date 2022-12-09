@@ -22,18 +22,22 @@ for (var i=0; themeDots.length > i; i++){
 function setTheme(mode){
 	if(mode == 'light'){
 		document.getElementById('theme-style').href = 'default.css'
+		document.getElementById('profile_pic').src = 'images/Behrouz-' + mode + '.png'
 	}
 
 	if(mode == 'blue'){
 		document.getElementById('theme-style').href = 'blue.css'
+		document.getElementById('profile_pic').src = 'images/Behrouz-' + mode + '.png'
 	}
 
 	if(mode == 'green'){
 		document.getElementById('theme-style').href = 'green.css'
+		document.getElementById('profile_pic').src = 'images/Behrouz-' + mode + '.png'
 	}
 
 	if(mode == 'purple'){
 		document.getElementById('theme-style').href = 'purple.css'
+		document.getElementById('profile_pic').src = 'images/Behrouz-' + mode + '.png';
 	}
 
 	localStorage.setItem('theme', mode)
