@@ -237,13 +237,13 @@ h6 { font-size: 16px;}
 
 #preview-shadow{
 	background-color: var(--previewShadow);
-	max-width: 550px;
-	height: 350px;
+	max-width: 450px;
+	height: 210px;
 	padding-left: 50px;
 }
 
 #preview{
-	width: 550px;
+	width: 450px;
 	border:1.5px solid var(--buttonColor);
 	background-color: var(--previewBg);
 	padding:15px;
