@@ -128,6 +128,12 @@ h6 { font-size: 16px;}
 	margin-right: 5px;
 	margin-left:5px;
 }
+.Project_Links {
+    position: absolute;
+	bottom:5px; 
+	left:15px;
+
+}
 
 .dots-wrapper{
 	display: flex;
@@ -335,17 +341,19 @@ h6 { font-size: 16px;}
     display: flex; 
     flex-direction: column;
 	border:1px solid var(--borderColor);
+	position: relative;
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
-.post > .post-preview {flex-grow:1}
+.post > .post-preview {flex-grow:1;
+	padding-bottom: 30px;}
 
 .thumbnail{
 	display: block;
 	width: 100%;
-	height:180px;
+	height:210px;
 	object-fit: cover;
 }
 
