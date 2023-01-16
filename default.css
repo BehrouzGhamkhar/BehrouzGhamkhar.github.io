@@ -12,6 +12,7 @@
 	--previewBg:rgb(25, 39, 52, 0.8);
 	--previewShadow:#111921;
 	--buttonColor:#17a2b8;
+	--label:#00ddff;
 
 }
 
@@ -68,7 +69,11 @@ h6 { font-size: 16px;}
 }
 
 
-
+.Technologies{
+	color: var(--label);
+	display : inline;
+	margin-right: 20px;
+}
 
 .main-container{
 	width: 1200px;
@@ -128,12 +133,7 @@ h6 { font-size: 16px;}
 	margin-right: 5px;
 	margin-left:5px;
 }
-.Project_Links {
-    position: absolute;
-	bottom:5px; 
-	left:15px;
 
-}
 
 .dots-wrapper{
 	display: flex;
@@ -326,11 +326,78 @@ h6 { font-size: 16px;}
 	width: 100%;
 }
 
+.Project_Links {
+    position: absolute;
+	bottom:5px; 
+	left:15px;
+}
+
+.project > .Project_Links {
+    position: absolute;
+	bottom:30px; 
+	left:15px;
+}
+
+.project-wrapper{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+	gap: 50px;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+.project-preview{
+	background-color: var(--secondaryColor);
+	padding:15px;
+	padding-top: 35px;
+	
+}
+
+.project-title{
+	color:var(--mainText);
+	margin: 0;
+	padding-bottom:20px;
+}
+
+.project-intro{
+	color:var(--secondaryText);
+	font-size: 14px;
+}
+
+
+.project > .project-preview {
+	flex-grow:1;
+	padding-bottom: 60px;
+}
+
+.project-thumbnail {
+
+	height:40px;
+	width: 40px;
+	object-fit: fill;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	right: 20px;
+
+}
+
+.project{
+
+	height: 100%; 
+    display: flex; 
+    flex-direction: column;
+	border:1px solid var(--borderColor);
+	position: relative;
+	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+}
 
 .post-wrapper{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, 320px);
-	gap:20px;
+	grid-template-columns: repeat(auto-fit, 512px);
+	gap: 50px;
 	justify-content: center;
 	padding-bottom: 50px;
 }
@@ -353,7 +420,7 @@ h6 { font-size: 16px;}
 .thumbnail{
 	display: block;
 	width: 100%;
-	height:210px;
+	height:300px;
 	object-fit: cover;
 }
 
