@@ -161,8 +161,8 @@ h6 { font-size: 16px;}
 }
 .icons{
 	
-	height: 20px;
-	width: 20px;
+	height: 30px;
+	width: 30px;
 	margin: 5px;
 
 }
@@ -415,7 +415,7 @@ h6 { font-size: 16px;}
 }
 
 .post > .post-preview {flex-grow:1;
-	padding-bottom: 30px;}
+	padding-bottom: 40px;}
 
 .thumbnail{
 	display: block;
