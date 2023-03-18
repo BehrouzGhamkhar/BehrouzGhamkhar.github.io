@@ -558,6 +558,71 @@ h6 { font-size: 16px;}
 
 }
 
+@media screen and (max-width: 550px){
+	#preview-shadow{
+		max-width:330px;
+		height: 210px;
+		padding-left: 20px;
+	}
+
+	#preview{
+		width: 320px;
+	}
+
+	.post-wrapper{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 420px);
+		gap: 50px;
+		justify-content: center;
+		padding-bottom: 50px;
+	}
+
+	.left-column{
+		justify-content: center;
+		padding: 0%;
+		padding-bottom: 160px;
+	}
+
+}
+
+@media screen and (max-width: 450px){
+	#preview-shadow{
+		max-width:330px;
+		height: 210px;
+		padding-left: 20px;
+	}
+
+	#preview{
+		width: 320px;
+	}
+
+	.post-wrapper{
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 370px);
+		gap: 50px;
+		justify-content: center;
+		padding-bottom: 50px;
+	}
+
+	.thumbnail{
+		display: block;
+		width: 100%;
+		height:220px;
+		object-fit: cover;
+	}
+
+
+	.left-column{
+		justify-content: center;
+		padding: 0%;
+		padding-bottom: 160px;
+	}
+
+}
+
+
+
+
 
 
 
